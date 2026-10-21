@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAZARO COFFEE — Головна</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-900 font-sans">
+
+    <!-- Навигация -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 h-20 flex items-center shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-wider text-amber-900">BAZARO COFFEE</a>
+            <div class="hidden md:flex space-x-2">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Контакти</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Хлебные крошки -->
+    <div class="bg-stone-100 py-3 border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-stone-600">
+            Головна > <span class="text-stone-900 font-semibold">Поточна</span>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <header class="min-h-[80vh] relative bg-cover bg-center flex items-center justify-center text-center px-6" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=1600');">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-3xl text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-wide">BAZARO COFFEE</h1>
+            <p class="text-xl md:text-2xl mb-8 font-light text-stone-200">Затишна кав'ярня у Чернівцях</p>
+            <a href="services.html" class="inline-block bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition duration-300">Переглянути меню</a>
+        </div>
+    </header>
+
+    <!-- Секция: Особенности -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-stone-900 mb-4">Чому обирають нас</h2>
+            <p class="text-stone-600 max-w-xl mx-auto">Ми дбаємо про кожну чашку кави та створюємо атмосферу, куди хочеться повертатися знову і знову.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-stone-100">
+                <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center text-amber-600 font-bold text-xl mb-4">01</div>
+                <h3 class="text-xl font-bold mb-2">Зручне розташування</h3>
+                <p class="text-stone-600">Розташована в одному з найактивніших районів Чернівців на вулиці Героїв Майдану.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-stone-100">
+                <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center text-amber-600 font-bold text-xl mb-4">02</div>
+                <h3 class="text-xl font-bold mb-2">Ранкова кава</h3>
+                <p class="text-stone-600">Працює з раннього ранку (з 07:00) для зручності мешканців міста та бадьорого початку вашого дня.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="bg-stone-100 py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-stone-900 mb-4">Відгуки наших гостей</h2>
+                <p class="text-stone-600">Що кажуть про нас відвідувачі у Google Maps</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-md">
+                    <div class="flex text-amber-500 mb-4">★★★★☆</div>
+                    <p class="text-stone-700 mb-4 italic">"Кава непогана, ціни приємні."</p>
+                    <p class="font-bold text-sm text-stone-500">— Відвідувач (Google Maps)</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-md">
+                    <div class="flex text-amber-500 mb-4">★★★★★</div>
+                    <p class="text-stone-700 mb-4 italic">"Приємний персонал та смачна кава)"</p>
+                    <p class="font-bold text-sm text-stone-500">— Відвідувач (Google Maps)</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-md">
+                    <div class="flex text-amber-500 mb-4">★★★★★</div>
+                    <p class="text-stone-700 mb-4 italic">"Дуже смачна кава і хороший і привітний персонал."</p>
+                    <p class="font-bold text-sm text-stone-500">— Відвідувач (Google Maps)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Завітайте до нас на каву</h2>
+        <p class="text-stone-600 mb-8">вул. Героїв Майдану, 85, Чернівці • Щодня з 07:00 до 21:00</p>
+        <a href="booking.html" class="inline-block bg-stone-900 hover:bg-stone-800 text-white px-8 py-4 rounded-xl text-lg font-semibold transition">Забронювати столик</a>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-stone-900 text-stone-300 py-12 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4">BAZARO COFFEE</h3>
+                <p class="text-stone-400">Затишна кав'ярня у Чернівцях для ваших найкращих моментів.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Контакти</h4>
+                <p class="text-stone-400 mb-2">вул. Героїв Майдану, 85, Чернівці</p>
+                <p class="text-stone-400 mb-2">Телефон: +380991234567</p>
+                <p class="text-stone-400">Email: info@bazarocoffeego.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Графік роботи</h4>
+                <p class="text-stone-400 mb-2">Понеділок — Неділя</p>
+                <p class="text-stone-400">07:00 — 21:00</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-6 border-t border-stone-800 text-center text-stone-500 text-sm">
+            &copy; 2024 BAZARO COFFEE. Усі права захищені.
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
