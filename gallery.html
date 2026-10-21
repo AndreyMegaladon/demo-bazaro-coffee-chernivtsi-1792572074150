@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAZARO COFFEE — Галерея</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-900 font-sans">
+
+    <!-- Навигация -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 h-20 flex items-center shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-wider text-amber-900">BAZARO COFFEE</a>
+            <div class="hidden md:flex space-x-2">
+                <a href="index.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Меню</a>
+                <a href="gallery.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 rounded-lg px-4 py-2 text-stone-700 font-medium transition">Контакти</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Хлебные крошки -->
+    <div class="bg-stone-100 py-3 border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-stone-600">
+            Головна > <span class="text-stone-900 font-semibold">Галерея</span>
+        </div>
+    </div>
+
+    <!-- Галерея -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold mb-4">Наша атмосфера</h1>
+            <p class="text-stone-600">Затишні куточки та смачні моменти у BAZARO COFFEE</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600" alt="Кав'ярня 1" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&q=80&w=600" alt="Кав'ярня 2" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1507133750040-4a8f57e21571?auto=format&fit=crop&q=80&w=600" alt="Кав'ярня 3" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600" alt="Кав'ярня 4" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&q=80&w=600" alt="Кав'ярня 5" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-md">
+                <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600" alt="Кав'ярня 6" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-stone-900 text-stone-300 py-12 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4">BAZARO COFFEE</h3>
+                <p class="text-stone-400">Затишна кав'ярня у Чернівцях для ваших найкращих моментів.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Контакти</h4>
+                <p class="text-stone-400 mb-2">вул. Героїв Майдану, 85, Чернівці</p>
+                <p class="text-stone-400 mb-2">Телефон: +380991234567</p>
+                <p class="text-stone-400">Email: info@bazarocoffeego.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Графік роботи</h4>
+                <p class="text-stone-400 mb-2">Понеділок — Неділя</p>
+                <p class="text-stone-400">07:00 — 21:00</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-6 border-t border-stone-800 text-center text-stone-500 text-sm">
+            &copy; 2024 BAZARO COFFEE. Усі права захищені.
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
